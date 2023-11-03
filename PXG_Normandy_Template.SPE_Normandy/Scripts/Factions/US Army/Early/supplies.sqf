@@ -31,7 +31,7 @@ _resupplyAvailable = [
 			["SPE_M1A1_Bazooka",2]
 		]
 	],
-	["Flamethrowser Resupply",
+	["Flamethrower Resupply",
 		[
 			["SPE_M2_Flamethrower_Mag",5]
 		]

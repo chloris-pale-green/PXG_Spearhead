@@ -8,7 +8,6 @@ switch (_loadout) do {
 	};
     case "logi";
     case "sqd_eng";
-    case "sqd_aar";
     case "sqd_lat";
     case "sup_mmg_l";
     case "plt": {
@@ -22,7 +21,7 @@ switch (_loadout) do {
 	case "sqd_ar": {
         // BAR
 		for "_i" from 1 to 4 do { player addItemToVest "SPE_20Rnd_762x63" };
-		for "_i" from 1 to 4 do { player addItemToBackpack "SPE_20Rnd_762x63" };
+		for "_i" from 1 to 8 do { player addItemToBackpack "SPE_20Rnd_762x63" };
 	};
 	case "sqd_dmr";
 	case "sqd_gre": {
@@ -61,6 +60,9 @@ switch (_loadout) do {
 // add assistant ammo 
 switch (_loadout) do {
 	default {};
+	case "sqd_aar": {
+		for "_i" from 1 to 10 do { player addItemToBackpack "SPE_20Rnd_762x63" };
+	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 4 do { player addItemToBackpack "SPE_50Rnd_762x63" };
 	};

@@ -1,4 +1,5 @@
 _availableFactions = [
+    "French Resistance",
     "US Army"
 ];
 

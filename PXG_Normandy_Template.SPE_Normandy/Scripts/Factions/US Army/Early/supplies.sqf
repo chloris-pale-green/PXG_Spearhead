@@ -61,12 +61,10 @@ _resupplyAvailable = [
 	],
 	["Explosives",
 		[
-			["ACE_Clacker",2],
-			["ACE_M26_Clacker",2],
-			["DemoCharge_Remote_Mag",10],
-			["SatchelCharge_Remote_Mag",10],
-			["ATMine_Range_Mag",15],
-			["SLAMDirectionalMine_Wire_Mag",15]
+			["SPE_US_TNT_half_pound_mag",10],
+			["SPE_US_TNT_4pound_mag",4],
+			["SPE_Ladung_Small_MINE_mag",6],
+			["SPE_Ladung_Big_MINE_mag",2]
 		]
 	],
 	["Blood IVs",

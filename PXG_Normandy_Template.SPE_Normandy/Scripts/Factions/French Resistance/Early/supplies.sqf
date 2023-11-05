@@ -1,15 +1,18 @@
 _resupplyAvailable = [
 	["Primary Resupply",
 		[
-			["SPE_5Rnd_792x57",40],
-			["SPE_10Rnd_792x57",10],
-			["SPE_32Rnd_9x19",20],
-			["SPE_8Rnd_9x19_P08", 10]
+			["SPE_Fusil_Mle_208_12_Sawedoff",10],
+			["SPE_15Rnd_762x33",10],
+			["SPE_5Rnd_792x57", 10],
+			["SPE_32Rnd_9x19", 10],
+			["SPE_32Rnd_9x19_Sten", 10],
+			["SPE_8Rnd_762x63", 10],
+			["SPE_10Rnd_792x57", 10]
 		]
 	],
 	["AR Resupply",
 		[
-			["SPE_30Rnd_792x33",20]
+			["SPE_25Rnd_75x54",20]
 		]
 	],
 	["MMG Resupply",
@@ -23,11 +26,6 @@ _resupplyAvailable = [
 			["SPE_PzFaust_60m",2]
 		]
 	],
-	["Flamethrower Resupply",
-		[
-			["SPE_Flammenwerfer41_Mag",4]
-		]
-	],
 	["Hand Grenades",
 		[
 			["SPE_Shg24_Frag",20]
@@ -35,8 +33,10 @@ _resupplyAvailable = [
 	],
 	["Smoke Grenades",
 		[
-			["SPE_NB39",10]
-            // TODO: add other colours
+			["SPE_US_M18",10],
+			["SPE_US_M18_Red",10],
+			["SPE_US_M18_Green",10],
+			["SPE_US_M18_Yellow",10]
 		]
 	],
 	["Rifle Grenades",
@@ -83,12 +83,15 @@ _resupplyAvailable = [
 	],
 	["Squad Resupply",
 		[
-			["SPE_5Rnd_792x57", 20],
-			["SPE_10Rnd_792x57",10],
+			["SPE_Fusil_Mle_208_12_Sawedoff",10],
+			["SPE_15Rnd_762x33",10],
+			["SPE_5Rnd_792x57", 10],
 			["SPE_32Rnd_9x19", 10],
-			["SPE_30Rnd_792x33", 10],
-			["SPE_50Rnd_792x57", 6],
-			["SPE_8Rnd_9x19_P08", 10],
+			["SPE_32Rnd_9x19_Sten", 10],
+			["SPE_8Rnd_762x63", 10],
+			["SPE_10Rnd_792x57", 10],
+			["SPE_25Rnd_75x54",20],
+			["SPE_1Rnd_PzFaust_60m",8],
 			["SPE_Shg24_Frag", 6],
 			["ACE_elasticBandage", 12],
 			["ACE_packingBandage", 12],

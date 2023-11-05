@@ -3,6 +3,7 @@ params["_side","_faction","_variant", "_loadout"];
 // add primary weapon
 switch (_loadout) do {
 	default { player addWeapon "SPE_K98_Late"; };
+    case "sqd_aar";
 	case "plt": { player addWeapon "SPE_G43"; };
 	case "sqd_ld": { player addWeapon "SPE_MP40"; };
 	case "sqd_gre": { player addWeapon "SPE_K98_GW"; };

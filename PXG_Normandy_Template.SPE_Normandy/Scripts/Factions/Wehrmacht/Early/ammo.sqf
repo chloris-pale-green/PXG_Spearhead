@@ -11,12 +11,16 @@ switch (_loadout) do {
 	case "plt": {
 		for "_i" from 1 to 6 do { player addItemToVest "SPE_10Rnd_792x57" };
 	};
+	case "sqd_aar": {
+		for "_i" from 1 to 4 do { player addItemToUniform "SPE_10Rnd_792x57" };
+		for "_i" from 1 to 2 do { player addItemToVest "SPE_10Rnd_792x57" };
+	};
 	case "sqd_ld": {
 		for "_i" from 1 to 6 do { player addItemToVest "SPE_32Rnd_9x19" };
 	};
 	case "sqd_ar": {
-		for "_i" from 1 to 4 do { player addItemToVest "SPE_30Rnd_792x33" };
-		for "_i" from 1 to 4 do { player addItemToBackpack "SPE_30Rnd_792x33" };
+		for "_i" from 1 to 5 do { player addItemToVest "SPE_30Rnd_792x33" };
+		for "_i" from 1 to 3 do { player addItemToBackpack "SPE_30Rnd_792x33" };
 	};
 	case "sqd_flame": {
 		for "_i" from 1 to 4 do { player addItemToBackpack "SPE_Flammenwerfer41_Mag" };
@@ -53,6 +57,9 @@ switch (_loadout) do {
 // add assistant ammo 
 switch (_loadout) do {
 	default {};
+	case "sqd_aar": {
+		for "_i" from 1 to 4 do { player addItemToBackpack "SPE_30Rnd_792x33" };
+	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 4 do { player addItemToBackpack "SPE_50Rnd_792x57" };
 	};

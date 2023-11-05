@@ -24,6 +24,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default { player addHeadgear "H_SPE_GER_Helmet"};
 	case "sqd_dmr": {player addHeadgear "H_SPE_GER_HelmetCamo"};
+    case "sqd_ar";
+	case "sqd_aar": {player addHeadgear "H_SPE_GER_Helmet_net"};
 	case "ar_ld": {player addHeadgear "H_SPE_GER_TankOfficerCap"};
 	case "ar_c": {player addHeadgear "H_SPE_GER_TankPrivateCap"};
 	case "pil": {player addHeadgear "H_SPE_GER_LW_PilotHelmet"};
@@ -41,6 +43,7 @@ switch (_loadout) do {
 	case "plt": {player addVest "V_SPE_GER_OfficerVest"};
 	case "sqd_ld": {player addVest "V_SPE_GER_VestUnterofficer"};
 	case "sqd_ar": {player addVest "V_SPE_GER_VestSTG"};
+	case "sqd_aar": {player addVest "V_SPE_GER_VestG43"};
 	case "sqd_dmr": {player addVest "V_SPE_GER_SniperBelt"};
 	case "sqd_med": {player addVest "V_SPE_GER_SaniVest2"};
     case "logi";
@@ -61,6 +64,7 @@ switch (_loadout) do {
 	//case "sqd_ld": { player addBackpack "B_SPE_GER_A_frame_Gef"};
 	case "sqd_gre": { player addBackpack "B_SPE_GER_A_frame_Grenadier"};
 	case "sqd_ar": { player addBackpack "B_SPE_GER_A_frame_STG44_MG"};
+	case "sqd_aar": { player addBackpack "B_SPE_GER_A_frame_Full"};
 	case "sqd_med": { player addBackpack "B_SPE_GER_MedicBackpack"};
     case "logi";
 	case "sqd_eng": { player addBackpack "B_SPE_GER_SapperBackpack2"};
